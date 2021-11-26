@@ -1,5 +1,6 @@
+package testpackage;
 
-public class testClass{
+public class TestClass{
     private int x;
     private int y;
     
@@ -19,6 +20,6 @@ public class testClass{
         
     
     String addHeader(String stringToAdd){
-        return String.format("Added Header %d %d %d", stringToAdd, x, y);
+        return String.format("Added Header %s %d %d", stringToAdd, x, y);
     }
 }
