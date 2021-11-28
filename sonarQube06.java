@@ -3,8 +3,8 @@ public class sonarQube06 {
         int result;
         switch (num) {
             case 0: result = 10; break;
-            default: result = 0; break;
             case 1: result = 20; break;
+            default: result = 0; break;
         }
         return result;
     }
