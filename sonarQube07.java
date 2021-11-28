@@ -1,8 +1,10 @@
 public class sonarQube07 {
     public int calcSum(int lastNum) {
-        int result = 0, j = 0, i;
-        for(i = 0; i < lastNum; j++){
-            i++;
+        int result = 0
+        int j = 0;
+        int i;
+        for(i = 0; i < lastNum; i++){
+            j++;
             result += j;
         }
         return result;
