@@ -1,3 +1,4 @@
-def getFactorial(acc, start)
-  acc = acc * getFactorial(acc, start - 1)
-  return acc
+class SomeClass:
+    lookUp = false
+    def lookup():
+        return lookUp
