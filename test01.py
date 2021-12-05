@@ -1,24 +1,12 @@
-class A:
+class Android:
     @property
-    def foo(self):
-        return self._foo
+    def screen(self, size):
+        return self._screen
 
-    @foo.setter
-    def foo(self, value):
-        self._foo = value
+    @screen.setter
+    def foo(self, value, size):
+        self._screen = value
 
     @foo.deleter
-    def foo(self):
-        del self._foo
-
-class B:
-    def get_foo(self):
-        return self._foo
-
-    def set_foo(self, value):
-        self._foo = value
-
-    def del_foo(self):
-        del self._foo
-
-    foo = property(get_foo, set_foo, del_foo, "'foo' property.")
+    def foo(self, size):
+        del self._screen
