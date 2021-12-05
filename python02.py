@@ -1,4 +1,4 @@
 class Scanner:
     isfound = false
-    def getIsFound():
+    def getisfound(self):
         return isfound
