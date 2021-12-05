@@ -1,4 +1,4 @@
-class SomeClass:
-    lookUp = false
-    def lookup():
-        return lookUp
+class Scanner:
+    isFound = false
+    def isfound():
+        return isFound
