@@ -1,12 +1,12 @@
 class Android:
     @property
-    def screen(self, size):
+    def screen(self):
         return self._screen
 
     @screen.setter
-    def foo(self, value, size):
+    def foo(self, value):
         self._screen = value
 
     @foo.deleter
-    def foo(self, size):
+    def foo(self):
         del self._screen
